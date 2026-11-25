@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">가위바위보 마인드</string>
+
+    <string name="btn_reset">초기화</string>
+    <string name="lang_title">언어</string>
+    <string name="lang_system">기기 설정 따르기</string>
+
+    <string name="label_you">나</string>
+    <string name="label_cpu">CPU</string>
+    <string name="cd_player_hand">나의 손</string>
+    <string name="cd_cpu_hand">컴퓨터의 손</string>
+
+    <string name="hand_rock">바위</string>
+    <string name="hand_scissors">가위</string>
+    <string name="hand_paper">보</string>
+
+    <string name="chant">가위… 바위… 보!</string>
+
+    <string name="msg_start">손을 골라 보세요!</string>
+    <string name="msg_win">이겼다!</string>
+    <string name="msg_lose">졌다…</string>
+    <string name="msg_draw">비겼다!</string>
+
+    <string name="score_win">승</string>
+    <string name="score_lose">패</string>
+    <string name="score_draw">무</string>
+    <string name="streak_format">🔥 %1$d연승 · 최고 %2$d</string>
+    <string name="win_rate">승률\n(무승부 제외)</string>
+
+    <string name="animal_turtle">거북이</string>
+    <string name="animal_fox">여우</string>
+    <string name="animal_eagle">독수리</string>
+
+    <string name="ai_meter_title">AI 적중률</string>
+    <plurals name="ai_meter_scope">
+        <item quantity="other">최근 %2$d판 중 %1$d판 적중 (최대 20판)</item>
+    </plurals>
+    <string name="ai_no_data">데이터 없음</string>
+    <string name="ai_learning">AI가 당신의 습관을 배우는 중…</string>
+    <string name="ai_hit">AI 예상: %1$s, 당신: %2$s. 읽혔다!</string>
+    <string name="ai_miss">AI 예상: %1$s, 당신: %2$s.</string>
+
+    <string name="habit_title">나의 습관</string>
+    <plurals name="habit_scope">
+        <item quantity="other">전체 %1$d판</item>
+    </plurals>
+    <plurals name="habit_row_value">
+        <item quantity="other">%2$d판 중 %1$d판 (%3$d%%)</item>
+    </plurals>
+    <string name="habit_none">몇 판 더 하면 습관이 보여요.</string>
+    <plurals name="habit_top">
+        <item quantity="other">가장 많이 고른 동물: %1$s (%3$d판 중 %2$d판)</item>
+    </plurals>
+    <plurals name="habit_tie2">
+        <item quantity="other">똑같이 많이 고른 동물: %1$s, %2$s (각각 %3$d번)</item>
+    </plurals>
+    <plurals name="habit_tie3">
+        <item quantity="other">세 가지를 똑같이 골랐어요: 각각 %1$d번.</item>
+    </plurals>
+
+    <string name="reset_title">모두 초기화할까요?</string>
+    <string name="reset_message">성적, 연승 기록, 습관, 당신에 대한 AI의 기억이 모두 지워집니다.</string>
+    <string name="reset_ok">초기화</string>
+    <string name="reset_cancel">취소</string>
+</resources>

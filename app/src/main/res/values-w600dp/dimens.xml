@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 横長の画面（スマホ横向きなど）は高さが少ないので、ボタンと動物を小さめにする -->
+    <dimen name="animal_box_height">140dp</dimen>
+    <dimen name="hand_buttons_height">100dp</dimen>
+    <dimen name="hand_icon_size">44dp</dimen>
+</resources>

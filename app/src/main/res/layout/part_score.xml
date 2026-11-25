@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 成績（勝ち・負け・あいこ・勝率） -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="-4dp"
+    android:layout_marginEnd="-4dp"
+    android:orientation="horizontal">
+
+    <LinearLayout style="@style/ScoreChip">
+
+        <TextView
+            android:id="@+id/txtWins"
+            style="@style/ScoreValue"
+            android:textColor="@color/win" />
+
+        <TextView
+            style="@style/ScoreLabel"
+            android:text="@string/score_win" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ScoreChip">
+
+        <TextView
+            android:id="@+id/txtLosses"
+            style="@style/ScoreValue"
+            android:textColor="@color/lose" />
+
+        <TextView
+            style="@style/ScoreLabel"
+            android:text="@string/score_lose" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ScoreChip">
+
+        <TextView
+            android:id="@+id/txtDraws"
+            style="@style/ScoreValue"
+            android:textColor="@color/draw" />
+
+        <TextView
+            style="@style/ScoreLabel"
+            android:text="@string/score_draw" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ScoreChip">
+
+        <TextView
+            android:id="@+id/txtWinRate"
+            style="@style/ScoreValue"
+            android:textColor="@color/accent_light" />
+
+        <TextView
+            android:id="@+id/txtWinRateLabel"
+            style="@style/ScoreLabel" />
+    </LinearLayout>
+</LinearLayout>

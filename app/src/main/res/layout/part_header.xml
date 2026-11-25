@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 見出し（クラス記号_出席番号_課題名_氏名）とリセット -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingEnd="8dp">
+
+    <!-- 提出用の見出しは必ず全部見えるように、入りきらないときは文字を小さくする -->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:text="@string/header_title"
+        app:autoSizeMaxTextSize="12sp"
+        app:autoSizeMinTextSize="8sp"
+        app:autoSizeTextType="uniform"
+        android:textColor="@color/text_sub" />
+
+    <!-- 言語の切り替え -->
+    <Button
+        android:id="@+id/btnLanguage"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/lang_title"
+        android:minWidth="48dp"
+        android:text="@string/lang_button"
+        android:textColor="@color/accent_light"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnReset"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_reset"
+        android:textColor="@color/accent_light" />
+</LinearLayout>

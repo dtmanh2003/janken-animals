@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Janken Mind</string>
+
+    <!-- 見出し（クラス記号_出席番号_課題名_氏名） -->
+    <string name="header_title" translatable="false">IA13A083_13_kadai_Janken_DUONGMANH</string>
+
+    <string name="btn_reset">Reset</string>
+    <string name="lang_title">Language</string>
+    <string name="lang_system">System default</string>
+    <string name="lang_button" translatable="false">🌐</string>
+
+    <string name="label_you">YOU</string>
+    <string name="label_cpu">CPU</string>
+    <string name="label_vs" translatable="false">VS</string>
+    <string name="cd_player_hand">Your hand</string>
+    <string name="cd_cpu_hand">Computer\'s hand</string>
+
+    <string name="hand_rock">Rock</string>
+    <string name="hand_scissors">Scissors</string>
+    <string name="hand_paper">Paper</string>
+
+    <string name="chant">Rock… Paper… Shoot!</string>
+
+    <string name="msg_start">Pick your hand!</string>
+    <string name="msg_win">You win!</string>
+    <string name="msg_lose">You lose…</string>
+    <string name="msg_draw">Draw!</string>
+
+    <string name="score_win">Win</string>
+    <string name="score_lose">Lose</string>
+    <string name="score_draw">Draw</string>
+    <string name="streak_format">🔥 %1$d in a row · Best %2$d</string>
+    <string name="win_rate">Win rate\n(excl. draws)</string>
+    <string name="percent_format" translatable="false">%1$d%%</string>
+
+    <string name="animal_turtle">Turtle</string>
+    <string name="animal_fox">Fox</string>
+    <string name="animal_eagle">Eagle</string>
+
+    <!-- AIの的中率（直近最大20回） -->
+    <string name="ai_meter_title">AI guessed right</string>
+    <plurals name="ai_meter_scope">
+        <item quantity="one">Right %1$d/%2$d recent round (max 20)</item>
+        <item quantity="other">Right %1$d/%2$d recent rounds (max 20)</item>
+    </plurals>
+    <string name="ai_no_data">No data yet</string>
+    <string name="ai_learning">The AI is learning your habits…</string>
+    <string name="ai_hit">AI guessed %1$s, you played %2$s. Read you!</string>
+    <string name="ai_miss">AI guessed %1$s, you played %2$s.</string>
+
+    <!-- あなたのクセ（全ての回） -->
+    <string name="habit_title">Your habits</string>
+    <plurals name="habit_scope">
+        <item quantity="one">All %1$d round</item>
+        <item quantity="other">All %1$d rounds</item>
+    </plurals>
+    <string name="habit_row_label" translatable="false">%1$s %2$s · %3$s</string>
+    <plurals name="habit_row_value">
+        <item quantity="one">%1$d/%2$d round (%3$d%%)</item>
+        <item quantity="other">%1$d/%2$d rounds (%3$d%%)</item>
+    </plurals>
+    <string name="habit_none">Play a few more rounds to see your habits.</string>
+    <plurals name="habit_top">
+        <item quantity="one">You pick %1$s the most: %2$d/%3$d round.</item>
+        <item quantity="other">You pick %1$s the most: %2$d/%3$d rounds.</item>
+    </plurals>
+    <plurals name="habit_tie2">
+        <item quantity="one">You pick %1$s and %2$s equally: %3$d time each.</item>
+        <item quantity="other">You pick %1$s and %2$s equally: %3$d times each.</item>
+    </plurals>
+    <plurals name="habit_tie3">
+        <item quantity="one">You pick all three equally: %1$d time each.</item>
+        <item quantity="other">You pick all three equally: %1$d times each.</item>
+    </plurals>
+
+    <string name="reset_title">Reset everything?</string>
+    <string name="reset_message">Your score, streaks, habits and the AI\'s memory of you will be erased.</string>
+    <string name="reset_ok">Reset</string>
+    <string name="reset_cancel">Cancel</string>
+</resources>

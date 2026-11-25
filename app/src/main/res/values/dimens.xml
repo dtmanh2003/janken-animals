@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="animal_box_height">150dp</dimen>
+    <dimen name="hand_buttons_height">128dp</dimen>
+    <dimen name="hand_icon_size">62dp</dimen>
+</resources>

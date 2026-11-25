@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Oẳn Tù Tì AI</string>
+
+    <string name="btn_reset">Đặt lại</string>
+    <string name="lang_title">Ngôn ngữ</string>
+    <string name="lang_system">Theo cài đặt máy</string>
+
+    <string name="label_you">BẠN</string>
+    <string name="label_cpu">MÁY</string>
+    <string name="cd_player_hand">Tay của bạn</string>
+    <string name="cd_cpu_hand">Tay của máy</string>
+
+    <string name="hand_rock">Búa</string>
+    <string name="hand_scissors">Kéo</string>
+    <string name="hand_paper">Bao</string>
+
+    <string name="chant">Oẳn… tù… tì!</string>
+
+    <string name="msg_start">Chọn tay đi nào!</string>
+    <string name="msg_win">Bạn thắng!</string>
+    <string name="msg_lose">Bạn thua…</string>
+    <string name="msg_draw">Hòa!</string>
+
+    <string name="score_win">Thắng</string>
+    <string name="score_lose">Thua</string>
+    <string name="score_draw">Hòa</string>
+    <string name="streak_format">🔥 Chuỗi %1$d · Kỷ lục %2$d</string>
+    <string name="win_rate">Tỉ lệ thắng\n(không tính hòa)</string>
+
+    <string name="animal_turtle">Rùa</string>
+    <string name="animal_fox">Cáo</string>
+    <string name="animal_eagle">Đại bàng</string>
+
+    <string name="ai_meter_title">AI đoán đúng</string>
+    <plurals name="ai_meter_scope">
+        <item quantity="other">Đoán đúng %1$d/%2$d ván gần đây (tối đa 20)</item>
+    </plurals>
+    <string name="ai_no_data">Chưa có dữ liệu</string>
+    <string name="ai_learning">AI đang học thói quen của bạn…</string>
+    <string name="ai_hit">AI đoán %1$s, bạn ra %2$s. Bị đọc vị rồi!</string>
+    <string name="ai_miss">AI đoán %1$s, bạn ra %2$s.</string>
+
+    <string name="habit_title">Thói quen của bạn</string>
+    <plurals name="habit_scope">
+        <item quantity="other">Trên tổng %1$d ván</item>
+    </plurals>
+    <plurals name="habit_row_value">
+        <item quantity="other">%1$d/%2$d ván (%3$d%%)</item>
+    </plurals>
+    <string name="habit_none">Chơi thêm vài ván để xem thói quen của bạn.</string>
+    <plurals name="habit_top">
+        <item quantity="other">Bạn chọn %1$s nhiều nhất — %2$d/%3$d ván.</item>
+    </plurals>
+    <plurals name="habit_tie2">
+        <item quantity="other">Bạn chọn %1$s và %2$s ngang nhau — %3$d lần mỗi con.</item>
+    </plurals>
+    <plurals name="habit_tie3">
+        <item quantity="other">Bạn chọn cả ba ngang nhau — %1$d lần mỗi con.</item>
+    </plurals>
+
+    <string name="reset_title">Đặt lại tất cả?</string>
+    <string name="reset_message">Điểm, chuỗi thắng, thói quen và trí nhớ của AI về bạn sẽ bị xóa.</string>
+    <string name="reset_ok">Đặt lại</string>
+    <string name="reset_cancel">Hủy</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- あなたのクセ：「自分はどの手をよく出す？」に答える表（全ての回で集計） -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SectionTitle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/habit_title" />
+
+        <TextView
+            android:id="@+id/txtHabitScope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_sub"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/rowScissors"
+        layout="@layout/part_habit_row" />
+
+    <include
+        android:id="@+id/rowRock"
+        layout="@layout/part_habit_row" />
+
+    <include
+        android:id="@+id/rowPaper"
+        layout="@layout/part_habit_row" />
+
+    <TextView
+        android:id="@+id/txtHabit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/text_sub"
+        android:textSize="13sp" />
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 手を選ぶボタン（グー＝カメ・チョキ＝キツネ・パー＝ワシ） -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/hand_buttons_height"
+    android:orientation="horizontal"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:id="@+id/btnRock"
+        style="@style/HandButton"
+        android:background="@drawable/bg_btn_rock"
+        android:contentDescription="@string/hand_rock">
+
+        <ImageView
+            style="@style/HandButtonIcon"
+                android:contentDescription="@null"
+            android:src="@drawable/animal_turtle_pose" />
+
+        <TextView
+            style="@style/HandButtonLabel"
+            android:text="@string/hand_rock" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnScissors"
+        style="@style/HandButton"
+        android:background="@drawable/bg_btn_scissors"
+        android:contentDescription="@string/hand_scissors">
+
+        <ImageView
+            style="@style/HandButtonIcon"
+                android:contentDescription="@null"
+            android:src="@drawable/animal_fox_pose" />
+
+        <TextView
+            style="@style/HandButtonLabel"
+            android:text="@string/hand_scissors" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnPaper"
+        style="@style/HandButton"
+        android:background="@drawable/bg_btn_paper"
+        android:contentDescription="@string/hand_paper">
+
+        <ImageView
+            style="@style/HandButtonIcon"
+                android:contentDescription="@null"
+            android:src="@drawable/animal_eagle_pose" />
+
+        <TextView
+            style="@style/HandButtonLabel"
+            android:text="@string/hand_paper" />
+    </LinearLayout>
+</LinearLayout>

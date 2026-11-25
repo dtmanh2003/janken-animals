@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">猜拳读心</string>
+
+    <string name="btn_reset">重置</string>
+    <string name="lang_title">语言</string>
+    <string name="lang_system">跟随系统</string>
+
+    <string name="label_you">你</string>
+    <string name="label_cpu">电脑</string>
+    <string name="cd_player_hand">你的手势</string>
+    <string name="cd_cpu_hand">电脑的手势</string>
+
+    <string name="hand_rock">石头</string>
+    <string name="hand_scissors">剪刀</string>
+    <string name="hand_paper">布</string>
+
+    <string name="chant">石头… 剪刀… 布！</string>
+
+    <string name="msg_start">选一个手势吧！</string>
+    <string name="msg_win">你赢了！</string>
+    <string name="msg_lose">你输了…</string>
+    <string name="msg_draw">平局！</string>
+
+    <string name="score_win">胜</string>
+    <string name="score_lose">负</string>
+    <string name="score_draw">平</string>
+    <string name="streak_format">🔥 %1$d连胜 · 最高 %2$d</string>
+    <string name="win_rate">胜率\n（不计平局）</string>
+
+    <string name="animal_turtle">乌龟</string>
+    <string name="animal_fox">狐狸</string>
+    <string name="animal_eagle">老鹰</string>
+
+    <string name="ai_meter_title">AI 猜中率</string>
+    <plurals name="ai_meter_scope">
+        <item quantity="other">最近 %2$d 局猜中 %1$d 局（最多 20 局）</item>
+    </plurals>
+    <string name="ai_no_data">暂无数据</string>
+    <string name="ai_learning">AI 正在学习你的习惯…</string>
+    <string name="ai_hit">AI 猜你出%1$s，你出了%2$s。被看穿了！</string>
+    <string name="ai_miss">AI 猜你出%1$s，你出了%2$s。</string>
+
+    <string name="habit_title">你的习惯</string>
+    <plurals name="habit_scope">
+        <item quantity="other">共 %1$d 局</item>
+    </plurals>
+    <plurals name="habit_row_value">
+        <item quantity="other">%1$d/%2$d 局（%3$d%%）</item>
+    </plurals>
+    <string name="habit_none">再玩几局就能看出你的习惯。</string>
+    <plurals name="habit_top">
+        <item quantity="other">你最常选%1$s：%3$d 局中 %2$d 局。</item>
+    </plurals>
+    <plurals name="habit_tie2">
+        <item quantity="other">你选%1$s和%2$s的次数一样：各 %3$d 次。</item>
+    </plurals>
+    <plurals name="habit_tie3">
+        <item quantity="other">三种选得一样多：各 %1$d 次。</item>
+    </plurals>
+
+    <string name="reset_title">要全部重置吗？</string>
+    <string name="reset_message">成绩、连胜记录、习惯以及 AI 对你的记忆都会被清除。</string>
+    <string name="reset_ok">重置</string>
+    <string name="reset_cancel">取消</string>
+</resources>

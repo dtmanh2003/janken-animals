@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 背景（グラデーション） -->
+    <color name="bg_top">#2A1B5E</color>
+    <color name="bg_bottom">#0B1026</color>
+    <color name="bar_dark">#1C1342</color>
+
+    <!-- カード -->
+    <color name="card_bg">#1AFFFFFF</color>
+    <color name="card_stroke">#33FFFFFF</color>
+    <color name="track">#26FFFFFF</color>
+
+    <!-- 文字 -->
+    <color name="text_main">#FFFFFF</color>
+    <color name="text_sub">#B3B8C7E6</color>
+    <color name="accent">#8C6CFF</color>
+    <color name="accent_light">#C3B2FF</color>
+
+    <!-- 勝敗の色 -->
+    <color name="win">#2EE59D</color>
+    <color name="lose">#FF5C7A</color>
+    <color name="draw">#FFC94D</color>
+
+    <!-- 手ごとのテーマカラー -->
+    <color name="rock">#FFA24D</color>
+    <color name="rock_dark">#E0661B</color>
+    <color name="scissors">#A66BFF</color>
+    <color name="scissors_dark">#6A35D6</color>
+    <color name="paper">#3DA9FF</color>
+    <color name="paper_dark">#1E6FD9</color>
+</resources>
